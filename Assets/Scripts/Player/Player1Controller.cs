@@ -11,12 +11,18 @@ public class Player1Controller : MonoBehaviour
   public float leftLimit = -19f;
   public float centerLimit = 0f;
 
+  public Rigidbody2D hand;
+  public GameObject ball;
+
   private Rigidbody2D rb;
 
   // Start is called before the first frame update
   private void Start()
   {
     rb = GetComponent<Rigidbody2D>();
+
+    ball.GetComponent<Rigidbody2D>().position = new Vector2(hand.position.x, hand.position.y - 0.5f);
+    ball.AddComponent<FixedJoint2D>().connectedBody = hand;
   }
 
   // Update is called once per frame
@@ -41,6 +47,11 @@ public class Player1Controller : MonoBehaviour
     if (Input.GetKey(KeyCode.S))
     {
       rb.velocity = new Vector2(rb.velocity.x, -movementForce);
+    }
+
+    if (Input.GetKey(KeyCode.R))
+    {
+      Throw();
     }
   }
 
@@ -78,6 +89,13 @@ public class Player1Controller : MonoBehaviour
       rb.velocity = new Vector2(Mathf.Abs(rb.velocity.x), rb.velocity.y);
       return;
     }
+  }
+
+  private void Throw()
+  {
+    Destroy(ball.GetComponent<FixedJoint2D>());
+
+    ball.GetComponent<Rigidbody2D>().velocity = new Vector2(hand.velocity.x + 5, hand.velocity.y + 5);
   }
 
 }

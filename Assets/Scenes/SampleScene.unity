@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 97419113}
   m_Layer: 2
   m_Name: FootLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 160219217}
   m_Layer: 2
   m_Name: ArmRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 219852060}
   m_Layer: 2
   m_Name: ThighLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 237958856}
   m_Layer: 2
   m_Name: HandRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -701,7 +701,7 @@ Transform:
   m_GameObject: {fileID: 237958850}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 3.6250033, y: 2.875, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.49999988, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 37292045}
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 353998882}
   m_Layer: 2
   m_Name: HandLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 410640629}
   m_Layer: 2
   m_Name: ArmRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1176,7 +1176,7 @@ GameObject:
   - component: {fileID: 431248857}
   m_Layer: 2
   m_Name: FootRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1335,7 +1335,7 @@ GameObject:
   - component: {fileID: 488998266}
   m_Layer: 2
   m_Name: ThighRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1591,7 +1591,7 @@ GameObject:
   - component: {fileID: 606511100}
   m_Layer: 2
   m_Name: ForearmLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 752490834}
   m_Layer: 2
   m_Name: ForearmRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1908,7 +1908,7 @@ GameObject:
   - component: {fileID: 757784267}
   m_Layer: 2
   m_Name: ChestSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2074,7 +2074,7 @@ GameObject:
   - component: {fileID: 783824656}
   m_Layer: 2
   m_Name: ForearmRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2232,7 +2232,7 @@ GameObject:
   - component: {fileID: 802271465}
   m_Layer: 2
   m_Name: FootLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2390,7 +2390,7 @@ GameObject:
   - component: {fileID: 923685091}
   m_Layer: 2
   m_Name: FootRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2549,7 +2549,7 @@ GameObject:
   - component: {fileID: 993681942}
   m_Layer: 2
   m_Name: ThighRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2722,7 +2722,7 @@ GameObject:
   - component: {fileID: 1010914680}
   m_Layer: 2
   m_Name: ArmLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2895,7 +2895,7 @@ GameObject:
   - component: {fileID: 1073919712}
   m_Layer: 2
   m_Name: ChestSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3061,7 +3061,7 @@ GameObject:
   - component: {fileID: 1111562689}
   m_Layer: 2
   m_Name: LegRSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3220,7 +3220,7 @@ GameObject:
   - component: {fileID: 1147712316}
   m_Layer: 2
   m_Name: ThighLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3657,7 +3657,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1290887121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 910fcff606e31834586c6323ca60b7d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 932c0495e230e7e4aad292f252ea4d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rightLimit: 19
@@ -3673,6 +3673,7 @@ GameObject:
   - component: {fileID: 1357172164}
   - component: {fileID: 1357172163}
   - component: {fileID: 1357172162}
+  - component: {fileID: 1357172165}
   m_Layer: 0
   m_Name: Net
   m_TagString: Untagged
@@ -3773,6 +3774,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1357172165
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357172161}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 100
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 2
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &1361497625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3788,7 +3810,7 @@ GameObject:
   - component: {fileID: 1361497627}
   m_Layer: 2
   m_Name: HandLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3947,7 +3969,7 @@ GameObject:
   - component: {fileID: 1403020299}
   m_Layer: 2
   m_Name: HeadSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4109,7 +4131,7 @@ GameObject:
   - component: {fileID: 1403914316}
   m_Layer: 2
   m_Name: ForearmLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4267,7 +4289,7 @@ GameObject:
   - component: {fileID: 1484480035}
   m_Layer: 2
   m_Name: HandRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4721,7 +4743,7 @@ GameObject:
   - component: {fileID: 1708677497}
   m_Layer: 2
   m_Name: LegLSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4879,7 +4901,7 @@ GameObject:
   - component: {fileID: 1748044011}
   m_Layer: 2
   m_Name: LegRSprite
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5038,7 +5060,7 @@ GameObject:
   - component: {fileID: 1855292231}
   m_Layer: 2
   m_Name: ArmLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5211,7 +5233,7 @@ GameObject:
   - component: {fileID: 1957329420}
   m_Layer: 2
   m_Name: HeadSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5370,6 +5392,7 @@ GameObject:
   - component: {fileID: 2054044292}
   - component: {fileID: 2054044294}
   - component: {fileID: 2054044295}
+  - component: {fileID: 2054044296}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -5484,6 +5507,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreP1: {fileID: 1551976648}
   scoreP2: {fileID: 1493212829}
+--- !u!50 &2054044296
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054044291}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2143910866
 GameObject:
   m_ObjectHideFlags: 0
@@ -5499,7 +5543,7 @@ GameObject:
   - component: {fileID: 2143910872}
   m_Layer: 2
   m_Name: LegLSprite
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
