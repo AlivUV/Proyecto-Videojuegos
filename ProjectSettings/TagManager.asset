@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Score
   - Ball
+  - Player1
+  - Player2
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackgroundInicio
+    uniqueID: 133572193
+    locked: 0
+  - name: GameOverBackground
+    uniqueID: 3366234593
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
