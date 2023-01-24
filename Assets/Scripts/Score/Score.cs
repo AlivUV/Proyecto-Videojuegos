@@ -3,7 +3,7 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-  private float points = 0;
+  private int points = 0;
   private TextMeshProUGUI label;
 
   // Start is called before the first frame update
@@ -20,6 +20,11 @@ public class Score : MonoBehaviour
   public void AddPoints()
   {
     points += 1;
+  }
+
+  public int GetPoints()
+  {
+    return points;
   }
 
 }

@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AddPoints : MonoBehaviour
 {
@@ -23,12 +23,22 @@ public class AddPoints : MonoBehaviour
       scoreP2.AddPoints();
       player1.Throw();
       player2.BallGrab();
+
+      if (scoreP2.GetPoints() == 10)
+      {
+        SceneManager.LoadScene("MainMenu");
+      }
     }
     else
     {
       scoreP1.AddPoints();
       player2.Throw();
       player1.BallGrab();
+
+      if (scoreP1.GetPoints() == 10)
+      {
+        SceneManager.LoadScene("MainMenu");
+      }
     }
   }
 

@@ -54,7 +54,7 @@ public abstract class PlayerController : MonoBehaviour
   public void BallGrab()
   {
     var handPos = initPositions[handIndex];
-    ball.GetComponent<Rigidbody2D>().position = new Vector2(handPos.x, handPos.y - 0.5f);
+    ball.GetComponent<Rigidbody2D>().position = new Vector2(handPos.x + ((handIndex - 5) * 1f), handPos.y);
     ball.AddComponent<FixedJoint2D>().connectedBody = hand;
 
     grabbing = true;
