@@ -1,26 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  // Start is called before the first frame update
+  void Start()
+  {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  }
 
-    public void EscenaJuego()
-    {
-        Console.Write("Hola Mundo Sobre Linea");
-        SceneManager.LoadScene("Juego");
-    }
+  // Update is called once per frame
+  void Update()
+  {
+
+  }
+
+  public void EscenaJuego()
+  {
+    SceneManager.LoadScene("Juego");
+  }
 }
