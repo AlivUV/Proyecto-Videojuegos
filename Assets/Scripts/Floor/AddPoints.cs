@@ -3,8 +3,10 @@ using TMPro;
 
 public class AddPoints : MonoBehaviour
 {
-  [SerializeField] public Score scoreP1;
-  [SerializeField] public Score scoreP2;
+  public Score scoreP1;
+  public Score scoreP2;
+  public Player1Controller player1;
+  public Player2Controller player2;
 
   private void OnCollisionEnter2D(Collision2D other)
   {
@@ -13,13 +15,20 @@ public class AddPoints : MonoBehaviour
       return;
     }
 
+    player1.restoreInitPositions();
+    player2.restoreInitPositions();
+
     if (other.collider.attachedRigidbody.position.x < 0)
     {
-      scoreP1.AddPoints();
+      scoreP2.AddPoints();
+      player1.Throw();
+      player2.BallGrab();
     }
     else
     {
-      scoreP2.AddPoints();
+      scoreP1.AddPoints();
+      player2.Throw();
+      player1.BallGrab();
     }
   }
 

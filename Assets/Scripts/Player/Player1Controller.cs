@@ -1,39 +1,21 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public class Player1Controller : MonoBehaviour
+public class Player1Controller : PlayerController
 {
-  [Header("Movement")]
-
-  public float movementForce = 20f;
-  public float jumpForce = 60f;
-  public float jumpLimit = -6.5f;
-  public float floorLimit = -7f;
   public float leftLimit = -19f;
-  public float centerLimit = 0f;
-
-  public Rigidbody2D hand;
-  public GameObject ball;
-
-  private Rigidbody2D rb;
 
   // Start is called before the first frame update
-  private void Start()
+  protected override void Start()
   {
-    rb = GetComponent<Rigidbody2D>();
+    Initialize();
 
-    ball.GetComponent<Rigidbody2D>().position = new Vector2(hand.position.x, hand.position.y - 0.5f);
-    ball.AddComponent<FixedJoint2D>().connectedBody = hand;
+    handIndex = 6;
+
+    BallGrab();
   }
 
-  // Update is called once per frame
-  private void Update()
-  {
-    Movement();
-    Limits();
-    Jump();
-  }
-
-  private void Movement()
+  protected override void Movement()
   {
     if (Input.GetKey(KeyCode.A))
     {
@@ -55,7 +37,7 @@ public class Player1Controller : MonoBehaviour
     }
   }
 
-  private void Jump()
+  protected override void Jump()
   {
     if (Input.GetKey(KeyCode.W))
     {
@@ -66,12 +48,7 @@ public class Player1Controller : MonoBehaviour
     }
   }
 
-  private bool CanJump()
-  {
-    return rb.position.y <= jumpLimit;
-  }
-
-  private void Limits()
+  protected override void Limits()
   {
     if (rb.position.y < floorLimit)
     {
@@ -91,11 +68,17 @@ public class Player1Controller : MonoBehaviour
     }
   }
 
-  private void Throw()
+  public override void Throw()
   {
+    if (!grabbing)
+    {
+      return;
+    }
     Destroy(ball.GetComponent<FixedJoint2D>());
 
     ball.GetComponent<Rigidbody2D>().velocity = new Vector2(hand.velocity.x + 5, hand.velocity.y + 5);
+
+    grabbing = false;
   }
 
 }
