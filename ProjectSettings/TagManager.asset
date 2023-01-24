@@ -40,7 +40,7 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: BackgroundInicio
     uniqueID: 133572193
     locked: 0
   - name: Default
