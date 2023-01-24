@@ -26,7 +26,7 @@ public class AddPoints : MonoBehaviour
 
       if (scoreP2.GetPoints() == 10)
       {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Player2Winner");
       }
     }
     else
@@ -37,7 +37,7 @@ public class AddPoints : MonoBehaviour
 
       if (scoreP1.GetPoints() == 10)
       {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Player1Winner");
       }
     }
   }
