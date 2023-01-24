@@ -4597,7 +4597,7 @@ GameObject:
   - component: {fileID: 1493212827}
   - component: {fileID: 1493212829}
   m_Layer: 5
-  m_Name: ScoreP2
+  m_Name: ScoreP1
   m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4745,7 +4745,7 @@ GameObject:
   - component: {fileID: 1551976646}
   - component: {fileID: 1551976648}
   m_Layer: 5
-  m_Name: ScoreP1
+  m_Name: ScoreP2
   m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5859,8 +5859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f59ef04c113db343bc7bc853cd0e6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreP1: {fileID: 1551976648}
-  scoreP2: {fileID: 1493212829}
+  scoreP1: {fileID: 1493212829}
+  scoreP2: {fileID: 1551976648}
   player1: {fileID: 757784267}
   player2: {fileID: 1073919712}
 --- !u!1 &2143910866

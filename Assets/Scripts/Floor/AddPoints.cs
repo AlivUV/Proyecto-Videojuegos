@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Threading;
 
 public class AddPoints : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class AddPoints : MonoBehaviour
 
     player1.restoreInitPositions();
     player2.restoreInitPositions();
+
+    Thread.Sleep(500);
 
     if (other.collider.attachedRigidbody.position.x < 0)
     {
