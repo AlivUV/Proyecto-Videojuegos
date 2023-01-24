@@ -82,4 +82,16 @@ public abstract class PlayerController : MonoBehaviour
     }
   }
 
+  protected void pauseResume()
+  {
+    if (Time.timeScale == 1f)
+    {
+      Time.timeScale = 0f;
+    }
+    else
+    {
+      Time.timeScale = 1f;
+    }
+  }
+
 }

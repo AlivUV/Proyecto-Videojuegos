@@ -35,6 +35,11 @@ public class Player1Controller : PlayerController
     {
       Throw();
     }
+
+    if (Input.GetKeyDown(KeyCode.P))
+    {
+      pauseResume();
+    }
   }
 
   protected override void Jump()
